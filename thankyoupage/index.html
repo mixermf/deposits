@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>БИНБАНК: Вклад в ваше надежное будущее</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-icon.png">
+    <!--[if lte IE 9]><script src="../oldies/oldies.js" charset="utf-8"></script><![endif]-->
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+
+        $(function(){
+            var hr = (new Date()).getHours();
+            if (hr >= 5 && hr < 17){
+                $('.hello-text').text('Хорошего Вам дня!');
+            } else 
+            if(hr >= 17 && hr < 21){
+                $('.hello-text').text('Хорошего Вам вечера!');
+            } else
+            if((hr >= 21 && hr <= 24) || (hr >= 0 && hr < 5)){
+                $('.hello-text').text('Доброй Вам ночи!');
+            }
+        });
+    </script>
+</head>
+
+<body class="page page_thanks">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLMGC2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NLMGC2');</script>
+<!-- End Google Tag Manager -->
+
+    <div class="page-in page-in_thanks">
+        <header class="header header_no-margin">
+                <div class="container">
+                    <div class="row">
+                        <div class="header__logo-out">
+                          <a class="header__logo" href="https://www.binbank.ru/">
+                              <img src="../img/logo.png" alt="" class="header__logo-img">
+                          </a>
+                        </div>
+                        <div class="header__right">
+                            <a href="tel:88005555575" class="header__phone">8 800 555 5575</a><br><a href="http://www.binbank.ru/branches/" target="_blank" class="header__department">Отделения банка</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        <section class="thanks-screen">
+            <div class="container">
+                <h1 class="thanks-screen__title1"><script>greeting();</script>!</h1>
+                <h2 class="thanks-screen__title2">Ваша заявка принята в обработку. Спасибо, что выбрали БИНБАНК.</h2>
+                <h2 class="thanks-screen__title3 hello-text"></h2>
+                    <div class="thanks-screen__item thanks-screen__item_1 wow fadeIn" data-wow-delay=".1s" data-wow-offset="-1000">
+                        <p class="thanks-screen__num">1</p>
+                        <div class="thanks-screen__img-out"><img src="../img/thanks/1.png" alt="" class="thanks-screen__img"></div>
+                        <p class="thanks-screen__text">В ближайшее время <br>вам позвонит <br>специалист банка <br>для подбора <br>оптимального <br>предложения по вкладу</p>
+                    </div>
+                    <div class="thanks-screen__separator wow fadeIn" data-wow-delay=".2s" data-wow-offset="-1000"></div>
+                    <div class="thanks-screen__item thanks-screen__item_2 wow fadeIn" data-wow-delay=".3s" data-wow-offset="-1000">
+                        <p class="thanks-screen__num">2</p>
+                        <div class="thanks-screen__img-out"><img src="../img/thanks/2.png" alt="" class="thanks-screen__img"></div>
+                        <p class="thanks-screen__text">Приходите <br>с документами <br>в ближайший <br>офис банка</p>
+                    </div>
+                    <div class="thanks-screen__separator wow fadeIn" data-wow-delay=".4s" data-wow-offset="-1000"></div>
+                    <div class="thanks-screen__item thanks-screen__item_3 wow fadeIn" data-wow-delay=".5s" data-wow-offset="-1000">
+                        <p class="thanks-screen__num">3</p>
+                        <div class="thanks-screen__img-out"><img src="../img/thanks/3.png" alt="" class="thanks-screen__img"></div>
+                        <p class="thanks-screen__text">Оформите вклад <br>за 10 минут <br>и получайте высокий <br>доход с первого дня</p>
+                    </div>
+            </div>
+        </section>
+
+        <section class="socials">
+            <h2 class="socials__title">Делитесь с друзьями своим опытом</h2>
+            <a href="http://facebook.com/binbank.ru" target="_blank" class="socials__item socials__item_fb"></a>
+            <a href="https://twitter.com/binbank_ru" target="_blank" class="socials__item socials__item_tw"></a>
+            <a href="https://instagram.com/binbank_ru/" target="_blank" class="socials__item socials__item_ig"></a>
+            <a href="http://vk.com/binbank" target="_blank" class="socials__item socials__item_vk"></a>
+            <a href="http://ok.ru/binbank" target="_blank" class="socials__item socials__item_ok"></a>
+        </section>
+
+    </div>
+
+</body>
+
+</html>

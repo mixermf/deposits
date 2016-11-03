@@ -1,0 +1,1 @@
+window.open('https://www.binbank.ru/landing/deposits/oldies/', '_top');
